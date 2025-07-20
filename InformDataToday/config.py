@@ -1,0 +1,2 @@
+TOKEN = "8142649834:AAENOiHRChIQNdPRomnkF_iecHiVIjk0jmA"
+API_KEY = 'e3b72acefafea8565fbf86b756297d0f'

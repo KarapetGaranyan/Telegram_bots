@@ -7,10 +7,11 @@ import requests
 import json
 import os
 import uuid
+from config import TOKEN, API_KEY
 
 # Настройки бота
-bot = telebot.TeleBot("8142649834:AAENOiHRChIQNdPRomnkF_iecHiVIjk0jmA")
-OWM_API_KEY = 'e3b72acefafea8565fbf86b756297d0f'
+bot = telebot.TeleBot(TOKEN)
+OWM_API_KEY = API_KEY
 
 # Файлы для хранения данных
 TASKS_FILE = "user_tasks.json"
